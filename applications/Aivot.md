@@ -169,22 +169,21 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 - **FTE:**  3 FTE
 - **Costs:** 10,000 USD
 
-> [!NOTE]
-> **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one.
+<!-- > [!NOTE]
+> **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. -->
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#license) for details. |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#documentation) for details. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#testing-guide) for details. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language, and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+| **0a.** | License | Apache 2.0 |
+| **0b.** | Documentation | We will provide inline documentation for the AI-Agent codebase and a basic tutorial demonstrating how to launch the bot within a Discord server and simulate a voting interaction./milestone-deliverables-guidelines#documentation) for details. |
+| **0c.** |Testing and Testing Guide | All core logic for the AI interaction and database operations will be covered with unit tests. The guide will describe how to run tests using standard frameworks in Golang and JavaScript. |
+| **0d.** |Docker | A Dockerfile and Docker Compose script will be provided to run the AI-Agent, database, and blockchain interaction components locally. |
+| 1. | AI Agent MVP| We will deliver a fully functional AI-Agent integrated into a Discord bot. The bot will be able to:
+* Present active DAO voting topics (pulled from a JSON list or mock backend).
+* Allow users to vote by chatting with the bot.
+* Store votes in a database (MongoDB or PostgreSQL) following a structured JSON schema.
+* Support basic natural language interaction for vote selection (e.g. "I vote yes").
+* This milestone will demonstrate the core voting experience without blockchain integration. | 
 
 
 ### Milestone 2 - Polkadot Blockchain Integration
@@ -195,17 +194,16 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#license) for details. |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#documentation) for details. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#testing-guide) for details. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language, and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+| **0a.** | License | Apache 2.0 |
+| **0b.** | Documentation | We will provide inline documentation for the blockchain integration logic and a guide explaining how the AI-Agent sends data to the Polkadot chain using @polkadot/api. |
+| **0c.** | Testing and Testing Guide | We will include unit tests covering JSON encoding, IPFS upload, transaction submission, and result verification. A testing guide will explain how to simulate blockchain writes and query results. |
+| **0d.** | Docker | Docker setup will include a development environment with a local chain emulator (e.g., Westend dev chain or Substrate dev node) and preconfigured accounts for testing. |
+| 1. | Blockchain Integration | We will deliver blockchain functionality that allows the AI-Agent to:
+- Encode a finalized voting result into a JSON string or IPFS hash.
+- Submit the data to the Polkadot chain using system.remark_with_event or an ink! contract.
+- Log the on-chain transaction reference (e.g. block number, extrinsic hash).
+- Provide a retrieval API or CLI script for validating that the voting result was properly recorded.
+- This milestone will demonstrate full end-to-end interaction between the AI agent and the Polkadot chain. |
 
 
 ### Milestone 3 - Beta Version & User Testing
@@ -213,19 +211,20 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 - **Estimated Duration:** 1.5 month
 - **FTE:**  1.5 FTE
 - **Costs:** 8,000 USD
+
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#license) for details. |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#documentation) for details. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#testing-guide) for details. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language, and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...|
+| **0a.** | License | Apache 2.0|
+| **0b.** | Documentation | We will provide user-facing documentation and an in-Discord command guide for participants to view polls, submit votes, and confirm that their votes were recorded. This will also include administrator instructions for managing the bot. |
+| **0c.** | Testing and Testing Guide | We will conduct community beta testing with users from our DAO. The testing guide will include scripts to simulate votes, track user interactions, and validate on-chain results. |
+| **0d.** | Docker | A complete Docker environment will be provided that replicates the production setup with testnet connections, bot behavior, and access control settings. |
+| 1. | Community Beta Testing | Community Beta Testing | We will deploy the AI-Agent into our real DAO Discord server (500+ users) and conduct an actual vote. This includes:
+- Real-time interaction with users.
+- On-chain recording of voting results.
+- A web interface or in-chat summary of the final tally.
+- Collection of user feedback and metrics (e.g., participation rate, success/failure of blockchain recording).
+- This milestone validates the system’s usability and reliability in a real-world setting. |
+
 
 ### Milestone 4 - Official Deployment & User Guide
 
@@ -236,16 +235,12 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#license) for details. |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#documentation) for details. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#testing-guide) for details. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language, and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+| **0b.** | Documentation | We will provide final developer documentation including system architecture, deployment steps, multi-language usage guides (EN/JA/ZH), and instructions for extending the AI voting logic. |
+| **0c.** | Testing and Testing Guide | We will deliver full integration and regression tests, publish coverage reports, and verify consistency of the production deployment. |
+| **0d.** | Docker | Final Docker image will support clean deployment with persistent database and chain configuration. Docker Compose will include an example production deployment. |
+| 0e. | Article | We will publish a final article (on Medium and ANGO's official site) that reflects on the project goals, the technical and design process, lessons learned, and how other DAOs can integrate the tool into their governance workflows.  |
+| 1. | Public Release & Open Source Launch | We will release the complete AI-Agent voting system as open source under the Apache 2.0 license. The GitHub repo will include code, full documentation, test coverage, deployment examples, and a template setup for other DAOs to adopt the tool in their own communities. |
+
 
 
 ## Future Plans
