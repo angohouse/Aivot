@@ -6,14 +6,14 @@
   - **Payment**: In case of payment in **USDC**, please provide a Polkadot AssetHub address and the currency (e.g. 15oF4... (USDC)). In the case of **fiat** payment, please share your bank account privately with grants@web3.foundation via your contact email (see below) and list here the date and time of your email (e.g. Fiat 24.12.1971, 11:59). 
 - **[Level](https://grants.web3.foundation/docs/Introduction/levels):** 2 
 
-> [!IMPORTANT]
-> *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
+<!-- > [!IMPORTANT]
+> *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.* -->
 
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
+<!-- If this application is in response to an RFP, please indicate this on the first line of this section.
 
-If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide the name and/or pull request of said grant on the first line of this section.
+If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide the name and/or pull request of said grant on the first line of this section. -->
 
 ### Overview
 
@@ -24,7 +24,7 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 
 ### Project Details
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
+<!-- We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
 - Mockups/designs of any UI components
 - Data models / API specifications of the core functionality
@@ -39,7 +39,34 @@ Things that shouldn’t be part of the application (see also our [FAQ](../docs/f
 
 - The (future) tokenomics of your project
 - For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
+- Business-oriented activities (marketing, business planning), events or outreach -->
+
+__Design Goals__
+Consequently, our team conducted multiple brainstorming sessions and developed a preliminary design for the AI Agent. The design includes the following key features:
+* The AI Agent should be able to display ongoing voting proposals to users.
+* Users should be able to complete their votes through conversational interactions with the AI.
+* The AI should automatically format the voting results into a predefined structure.
+* The AI should be capable of recording the results on the Polkadot blockchain autonomously.
+* Once the voting process concludes, the final results should be displayed to users.
+
+__General API Design__
+1. AI and Database Interaction
+
+* AI creates data in the database
+* AI reads data from the database
+* AI updates data in the database
+* AI deletes data from the database
+
+2. AI and Blockchain Interaction
+
+* AI creates data in the Blockchain
+* AI reads data from the Blockchain
+
+__Technical Stack__
+* Golang
+* JavaScrpit
+* AI
+
 
 ### Ecosystem Fit
 
@@ -55,8 +82,10 @@ We aim to address the governance challenges in DAOs by providing an extremely co
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Chris Dai
+- Yi Liu
+- Kento Honda
+- KOKO
 
 ### Contact
 
@@ -72,22 +101,25 @@ We aim to address the governance challenges in DAOs by providing an extremely co
 ### Team's experience
 
 Our team is a group with extensive experience in Web3. Currently, we are operating several projects, including Unicask, Japan’s largest Web3 whiskey cask NFT project; ANGO, a Web3-based vacation rental service; and JAPANGO, a Web3 travel service. 
-ーーーーーーーーーーーーーーーーーー
-Chris Dai
+
+1. Chris Dai
 Blockchain evangelist and co-founder and CEO of Japanese blockchain companies. Pioneered redeemable physical asset NFTs and successfully completed several NFTs sales. Focuses on inventing decentralized businesses in the non-financial sector utilizing blockchain technology. Deeply attracted to the decentralized model and its business, social and philosophical aspects. Advisor to Japan Blockchain Association, Committee member of the Investigation of Blockchain Utilization of Authentication Information of Japanese Positioning Satellites, and Research Institute of Economy, Trade, and Industry Blockchain research team member. 
 Co-authored (2019) Next Blockchain: Ecosystem for Next Generation Industries. Nikkei Business Publications and (2020). Blockchain and Crypto Currency. Springer.
 
-Yi Liu
+2. Yi Liu
 CTO of Recika. Seasoned blockchain product manager. Lead system development for UniCask and ANGO. 
 Possesses over 10 years of experience in system development at a major securities company, with deep knowledge in software engineering and project management. Completed a Master's degree in Engineering at Nagoya University.
 
-Kento Honda
+3. Kento Honda
 Joined RECIKA at the end of 2021 and became Business manager of UniCask in 2022.
 He was responsible for the planning, design, sales and marketing of the world's first small batch whisky cask NFT.
 As a result, the $40 million barrel sold out in nine minutes. He then sold the NFT in collaboration with seven IPs, and was also in charge of planning, coordination with various parties and marketing here.
 In addition, as a POC for Livesola (a service that visualizes fan behavior and contributions in the form of NFTs and tokens), we organized a three-hour live broadcast using a TV station's studio.
 He has also participated in other consulting teams for major automotive companies, and has experience in coordinating projects mainly using NFTs with a wide variety of stakeholders.
 He has also been involved in ANGO since 2023. Currently, he is working with engineers on the development required to raise funds using NFTs in a limited liability company type DAO from new property development.
+
+4. KOKO
+Master of Science in Science from Tokyo Institute of Technology. Currently enrolled in the doctoral program at Institute of Science Tokyo. Research topics include decision-making within DAOs, tokenomics, and cryptocurrencies. Joined Recika in 2022, primarily responsible for DAO model design, tokenomics design, and simulations. Has a deep understanding of the philosophy, technologies, and applications of Web3.
 
 
 ### Team Code Repos
@@ -193,7 +225,7 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 | 3. | Substrate module: Z | The Z Substrate module will... |
 | 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
 | 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...|
 
 ### Milestone 4 - Official Deployment & User Guide
 
