@@ -139,16 +139,16 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ## Development Status :open_book:
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
+<!-- If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 
 - links to improvement proposals or [RFPs](https://grants.web3.foundation/docs/rfps) (requests for proposal),
 - academic publications relevant to the problem,
 - links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
 - references to conversations you might have had related to this project with anyone from the Web3 Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
+- previous interface iterations, such as mock-ups and wireframes. -->
 
-https://ango.gitbook.io/ango-whitepaper
-https://note.com/ango_nft
+- https://ango.gitbook.io/ango-whitepaper
+- https://note.com/ango_nft
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -260,7 +260,8 @@ You can find more information about the program [here](https://grants.web3.found
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website
+**How did you hear about the Grants Program?**
+Web3 Foundation Website
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
@@ -268,5 +269,5 @@ Here you can also add any additional information that you think is relevant to t
 - If there are any other teams who have already contributed (financially) to the project.
 - Previous grants you may have applied for. -->
 
-The ANGO project, which is directly related to this project, received funding in Cardano Catalyst Fund 12.
+- The ANGO project, which is directly related to this project, received funding in Cardano Catalyst Fund 12.
 https://projectcatalyst.io/funds/12/cardano-use-cases-mvp/from-vacancy-to-vitality-cardano-dao-and-rwas-transforming-424000-homes-into-dollar33-billion-economic-hubs
