@@ -1,6 +1,6 @@
 # Aivot
 
-- **Team Name:** Legal name of your team (e.g. JsonCorp)
+- **Team Name:** ANGO
 - **Payment Details:**
   - **DOT**: For the **DOT** compensation, please provide a Polkadot address (e.g. 15oF4...).
   - **Payment**: In case of payment in **USDC**, please provide a Polkadot AssetHub address and the currency (e.g. 15oF4... (USDC)). In the case of **fiat** payment, please share your bank account privately with grants@web3.foundation via your contact email (see below) and list here the date and time of your email (e.g. Fiat 24.12.1971, 11:59). 
@@ -41,7 +41,7 @@ Things that shouldn’t be part of the application (see also our [FAQ](../docs/f
 - For non-infrastructure projects—deployment and hosting costs, maintenance or audits
 - Business-oriented activities (marketing, business planning), events or outreach -->
 
-__Design Goals__
+__Design Goals__ <br>
 Consequently, our team conducted multiple brainstorming sessions and developed a preliminary design for the AI Agent. The design includes the following key features:
 * The AI Agent should be able to display ongoing voting proposals to users.
 * Users should be able to complete their votes through conversational interactions with the AI.
@@ -89,28 +89,28 @@ We aim to address the governance challenges in DAOs by providing an extremely co
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:** Your website
+- **Contact Name:** Kento Honda
+- **Contact Email:** contact@ango.jp
+- **Website:** https://ango.jp/
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** 16th Floor, Marunouchi Park Building , 2-6-1 Marunouchi, Chiyoda-ku , Tokyo 100-8222, Japan
+- **Registered Legal Entity:** Mori Hamada & Matsumoto LPC
 
 ### Team's experience
 
 Our team is a group with extensive experience in Web3. Currently, we are operating several projects, including Unicask, Japan’s largest Web3 whiskey cask NFT project; ANGO, a Web3-based vacation rental service; and JAPANGO, a Web3 travel service. 
 
-1. Chris Dai
+1. Chris Dai <br>
 Blockchain evangelist and co-founder and CEO of Japanese blockchain companies. Pioneered redeemable physical asset NFTs and successfully completed several NFTs sales. Focuses on inventing decentralized businesses in the non-financial sector utilizing blockchain technology. Deeply attracted to the decentralized model and its business, social and philosophical aspects. Advisor to Japan Blockchain Association, Committee member of the Investigation of Blockchain Utilization of Authentication Information of Japanese Positioning Satellites, and Research Institute of Economy, Trade, and Industry Blockchain research team member. 
 Co-authored (2019) Next Blockchain: Ecosystem for Next Generation Industries. Nikkei Business Publications and (2020). Blockchain and Crypto Currency. Springer.
 
-2. Yi Liu
+2. Yi Liu <br>
 CTO of Recika. Seasoned blockchain product manager. Lead system development for UniCask and ANGO. 
 Possesses over 10 years of experience in system development at a major securities company, with deep knowledge in software engineering and project management. Completed a Master's degree in Engineering at Nagoya University.
 
-3. Kento Honda
+3. Kento Honda <br>
 Joined RECIKA at the end of 2021 and became Business manager of UniCask in 2022.
 He was responsible for the planning, design, sales and marketing of the world's first small batch whisky cask NFT.
 As a result, the $40 million barrel sold out in nine minutes. He then sold the NFT in collaboration with seven IPs, and was also in charge of planning, coordination with various parties and marketing here.
@@ -118,7 +118,7 @@ In addition, as a POC for Livesola (a service that visualizes fan behavior and c
 He has also participated in other consulting teams for major automotive companies, and has experience in coordinating projects mainly using NFTs with a wide variety of stakeholders.
 He has also been involved in ANGO since 2023. Currently, he is working with engineers on the development required to raise funds using NFTs in a limited liability company type DAO from new property development.
 
-4. KOKO
+4. KOKO <br>
 Master of Science in Science from Tokyo Institute of Technology. Currently enrolled in the doctoral program at Institute of Science Tokyo. Research topics include decision-making within DAOs, tokenomics, and cryptocurrencies. Joined Recika in 2022, primarily responsible for DAO model design, tokenomics design, and simulations. Has a deep understanding of the philosophy, technologies, and applications of Web3.
 
 
@@ -133,8 +133,8 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/{person_1}
-- https://www.linkedin.com/{person_2}
+- Chris Dai: https://www.linkedin.com/in/chrisdailink
+- Kento Honda: https://www.linkedin.com/in/kentohonda/
 
 
 ## Development Status :open_book:
@@ -146,6 +146,9 @@ If you've already started implementing your project or it is part of a larger re
 - links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
 - references to conversations you might have had related to this project with anyone from the Web3 Foundation,
 - previous interface iterations, such as mock-ups and wireframes.
+
+https://ango.gitbook.io/ango-whitepaper
+https://note.com/ango_nft
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -257,10 +260,13 @@ You can find more information about the program [here](https://grants.web3.found
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Grants Program?** Web3 Foundation Website
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
-- Work you have already done.
+<!-- - Work you have already done.
 - If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+- Previous grants you may have applied for. -->
+
+The ANGO project, which is directly related to this project, received funding in Cardano Catalyst Fund 12.
+https://projectcatalyst.io/funds/12/cardano-use-cases-mvp/from-vacancy-to-vitality-cardano-dao-and-rwas-transforming-424000-homes-into-dollar33-billion-economic-hubs
