@@ -129,8 +129,10 @@ Master of Science in Science from Tokyo Institute of Technology. Currently enrol
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/{team_member_1}
-- https://github.com/{team_member_2}
+Since our team uses private repositories to manage code, we do not have a public GitHub account to share as a reference.
+Instead, we are providing the websites of two other active projects operated by our team.
+- https://ango.jp/
+- https://ango.jp/daoDetail
 
 ### Team LinkedIn Profiles (if available)
 
@@ -252,12 +254,6 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 - Enable AI to support multiple languages (Chinese, English, Japanese).
 - Allow AI to answer voting-related questions (e.g., "Can I change my vote?").
 
-## Referral Program (optional) :moneybag:
-
-You can find more information about the program [here](https://grants.web3.foundation/docs/referral-program).
-
-- **Referrer:** Name of the Polkadot Ambassador or GitHub account of the Web3 Foundation grantee
-- **Payment Address:** Polkadot/Kusama (USDC) payment address. Please also specify the currency. (e.g. 15oF4... (USDC))
 
 ## Additional Information :heavy_plus_sign:
 
