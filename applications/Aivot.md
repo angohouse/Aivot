@@ -2,8 +2,9 @@
 
 - **Team Name:** ANGO
 - **Payment Details:**
-  - **DOT**: For the **DOT** compensation, please provide a Polkadot address (e.g. 15oF4...).
-  - **Payment**: In case of payment in **USDC**, please provide a Polkadot AssetHub address and the currency (e.g. 15oF4... (USDC)). In the case of **fiat** payment, please share your bank account privately with grants@web3.foundation via your contact email (see below) and list here the date and time of your email (e.g. Fiat 24.12.1971, 11:59). 
+
+  - **DOT**: 16f8bxnrFRp9uzFrZ3UV9s13X7a5VnJS9kdXDHbx9nf4mMj 
+
 - **[Level](https://grants.web3.foundation/docs/Introduction/levels):** 2 
 
 <!-- > [!IMPORTANT]
@@ -164,7 +165,7 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 - **Total Estimated Duration:** 6 months
 - **Full-Time Equivalent (FTE):**  8 FTE
 - **Total Costs:** 30,000 USD
-- **DOT %:**  50%
+- **DOT %:**  100%
 
 ### Milestone 1 - AI-Agent MVP (Minimum Viable Product)
 
