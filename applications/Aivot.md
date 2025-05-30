@@ -137,7 +137,9 @@ Instead, we are providing the websites of two other active projects operated by 
 ### Team LinkedIn Profiles (if available)
 
 - Chris Dai: https://www.linkedin.com/in/chrisdailink
+- Yi Liu: https://www.linkedin.com/in/yi-liu-a71691183/
 - Kento Honda: https://www.linkedin.com/in/kentohonda/
+
 
 
 ## Development Status :open_book:
